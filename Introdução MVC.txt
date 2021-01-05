@@ -1,0 +1,23 @@
+MVC / Model – View - Controller
+Arquitetura de Software, base do projeto.
+
+O princípio básico do MVC é a divisão da aplicação em três camadas: a
+camada de interação do usuário (view), a camada de manipulação dos
+dados (model) e a camada de controle (controller).
+
+Com o MVC, é possível separar o código relativo à interface do usuário
+das regras de negócio, o que sem dúvida traz muitas vantagens que
+veremos mais à frente.
+
+Model: Responsavel pelo acesso e manipulação dos dados da aplicação, onde vai estar as funções de consulta de banco de dados ou acesso a uma API informaçoes de uma aplicação externa.
+
+View: Responsavel pela a interface apresentada ao usuario, tendo itens presentes como arquivos HTML.
+
+Controller: Trabalhando mais entre o meio de Model e View. Responsavel por receber as requisições dos usuarios, utilizando o MODEL para obter os dados e em seguida usar as VIEWA para renderizar as informações, tendo assim o resultado pronto para a entrega do usuario.
+
+Router: Criar um endereço ate um metodo de um CONTROLLER.
+
+Exemplo: O usuario faz a requisição ao CONTROLLER, apos o recebimento, solicita os dados para o MODEL, e o MODEL passa para as VIEW para deixar os dados mais claro, que devolve para o CONTROLLER, que devolve para o Usuario.
+
+
+
